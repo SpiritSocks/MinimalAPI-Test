@@ -1,4 +1,5 @@
-#Minimal API Test Project
+Minimal API Test Project
+--------
 
 Overview
 --------
