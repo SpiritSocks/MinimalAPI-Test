@@ -1,0 +1,30 @@
+﻿@StudentMinimalAPI_HostAddress = https://localhost:7165
+
+POST {{StudentMinimalAPI_HostAddress}}/todoitems
+Content-Type: application/json
+{
+  "name":"walk dog",
+  "isComplete":true
+}
+
+###
+
+###
+GET {{StudentMinimalAPI_HostAddress}}/todoitems/complete
+
+###
+
+@id=0
+DELETE {{StudentMinimalAPI_HostAddress}}/todoitems/{{id}}
+
+###
+
+PUT {{StudentMinimalAPI_HostAddress}}/todoitems/1
+Content-Type: application/json
+
+{
+  "name":"feed fish",
+  "isCompleted": false
+}
+
+###
